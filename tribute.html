@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    #main{
+        margin: auto; 
+        border:0px solid;
+        border-radius:5px;
+}
+    #header {
+        background-color: #0B3C5D;
+        color: #ffffff;
+        height: auto;
+        padding-top: 20px;
+    }
+    #img-div{
+        margin:-5px;
+        margin-top:20px;
+        width:100%;
+        border:5px solid white;
+}
+    img {
+        max-width: 100%; 
+        width: 1000px;
+        display: block; 
+        height: auto;
+        margin: auto;
+    }
+    ul {
+        max-width: 600px;
+        text-align: left;
+        margin:0 auto;
+    }
+    #tribute-info {
+        padding-top: 40px;
+        background-color: #eeeeee;
+    }
+    
+    .main-timeline{
+    position: relative;
+    max-width: 1000px;
+    margin:0 auto;
+    transition: all 0.4s ease 0s;
+}
+.main-timeline:before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #bfbfbf;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.main-timeline .timeline{
+    position: relative;
+}
+.main-timeline .timeline:before,
+.main-timeline .timeline:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.main-timeline .timeline-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #0B3C5D;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-timeline .timeline-content{
+    width: 45%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+.main-timeline .date{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    padding: 12px 33px;
+    background: #0B3C5D;
+    border-radius: 30px;
+}
+.main-timeline .title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #5c5151;
+    margin-top: 30px;
+}
+.main-timeline .description{
+    font-size: 14px;
+    color: #606060;
+    line-height: 2;
+}
+.main-timeline .timeline-content.right{
+    float: right;
+    text-align: left;
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before{
+        left: 0;
+    }
+    .main-timeline .timeline-icon{
+        left: -8px;
+        margin: 0;
+    }
+    .main-timeline .timeline-content{
+        width: 90%;
+        float: right;
+    }
+}
+#more-info {
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fab {
+          padding: 20px;
+          font-size: 30px;
+          width: 60px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+           border-radius: 60%;
+      }
+      .fa:hover {
+          opacity: 0.7;
+      }
+      footer {
+          background-color:#0B3C5D;
+      }
+    li {
+        display: inline;
+    }
+    #copyright {
+        color: #fff;
+    }
+</style>
+  <body>
+        <div id="main">
+            <nav id="header">
+                <h1 id="title">A Worthy Mentor</h1>
+                <p>The one who showed and taught us that nothing is impossible.</p>
+            </nav>
+                <div id="img-div">
+                    <img id="image" src="https://i1.wp.com/www.kontrolmag.com/wp-content/uploads/2017/01/president-barack-obama-2008-2016-style-moments-5.jpg" alt "Humble Number 1 Citizen">
+                    <div id="img-caption">
+                      President Barack Obama at the oval office making an official call while casually dressed for work.
+                    </div>
+                  </div>
+        
+                <div id="tribute-info">
+                        <h5 id="headline">Below is the timeline of President Barack Obama:</h5>
+
+                      <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <span class="date">1961</span>
+                                <h4 class="title">Birth</h4>
+                                <p class="description">
+                                    Obama was born in Honolulu, Hawaii to Mr Barack Obama Snr and Ann Dunham.
+                                </p>
+                            </div>
+                        </div>
+                     
+                        <div class="timeline">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content right">
+                                <span class="date">1967-1985</span>
+                                <h4 class="title">Education</h4>
+                                <p class="description">
+                                    He schooled in Indonesia attending Elementary school and was home schooled at a time also from 1967 to 1971 when he 
+                                    returned to Honolulu and chose to live with his grandparents. He graduated from high school in 1979. He moved to Los Angeles where 
+                                    he attended Occidental College till 1981 and transferred to Columbia University, New York as a junior. He graduated in 1983 with a BA in 
+                                    Political Science with specialty in International Relations. After graduation, he worked for Business International Corporation and later for 
+                                    New York Public Interest Research Group till 1985.
+                                </p>
+                            </div>
+                        </div>
+                     
+                        <div class="timeline">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <span class="date">1985-1997</span>
+                                <h4 class="title">Law Career</h4>
+                                <p class="description">
+                                   He worked as a Community Organizer from June 1985 to May 1988 in Chicago. In the fall of 1988 he entered Harvard Law School and graduated with a Juris Doctor
+                                   degree <i>magna cum laude</i> in 1991 and returned to Chicago afterwards. In 1991, Obama accepted a two-year position as Visiting Law and Government Fellow at 
+                                   the University of Chicago Law School to work on his first book. He then taught constitutional law at the University of Chicago Law School for twelve years, 
+                                   first as a Lecturer from 1992 to 1996, and then as a Senior Lecturer from 1996 to 2004. Obama's law license became inactive in 2007.
+                                </p>
+                            </div>
+                        </div>
+                     
+                        <div class="timeline">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content right">
+                                <span class="date">1997-2008</span>
+                                <h4 class="title">Legislative Career</h4>
+                                <p class="description">
+                                    His political career started in 1996 when he was elected into Illinios State Senate as a Democrat. He was reelected in 1998 and 2002. However,
+                                    in 2000 he lost Democratic primary race or Illinois's 1st congressional district in the United States House of Representatives to four-term 
+                                    incumbent Bobby Rush by a margin of two to one. He got elected into US Senate in 2004 and therefore resigned from his position as Illinios State
+                                    Senator. His stint in the US Senate was a short one as he already had his eyes on the number one seat. He resigned his position on November 16, 2008
+                                    like he earlier announced.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-content">
+                                    <span class="date">2008-2017</span>
+                                    <h4 class="title">Presidency</h4>
+                                    <p class="description">
+                                       Obama announced his candidacy for President of the United States on January 10, 2007 and on November 4, 2008Obama won the presidency with 365 
+                                       electoral votes to 173 received by McCain.[175] Obama won 52.9% of the popular vote to McCain's 45.7%. He became the first African American to be 
+                                       elected President of the United States of America and he served out his two-terms after defeating Republican Mitt Romney on November 6, 2012. On 
+                                       January 20, 2017 he handed over the mantle of leadership to incumbent President Donald Trump.
+                                    </p>
+                                </div>
+                        </div>
+
+                    </div>
+                    <center><div id="more-info">
+                            This page is only serving as a timeline tribute to this great legend Barack Obama and therefore, does not highlight the reforms, policies and other legacy 
+                            achievements. To know more, you can read about him <a id="tribute-link" href="https://en.wikipedia.org/wiki/Barack_Obama" target="_blank">here</a>.
+                    </div></center>
+                </div>
+               
+            </div>
+            <footer>
+            <ul class= "contacts">
+                    <li id="copyright"> &copy; July, 2018 Copyright Yorma</li>
+                    <li><a href="https://twitter.com/Fynewily" target= "_blank" class="fab fa-twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/enyioma-nwadibia-40b59244/" target= "_blank" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://github.com/fynewily" target= "_blank" class="fab fa-github"></a></li>
+            </ul> 
+          </footer>  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
